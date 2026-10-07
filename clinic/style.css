@@ -169,6 +169,7 @@ h2{font-size:clamp(1.8rem,3.2vw,2.6rem);font-weight:800;letter-spacing:-.02em;ma
 .reveal.visible{opacity:1;transform:none}
 @media (max-width:1024px){.services-grid,.doctor-grid{grid-template-columns:repeat(2,1fr)}.hero-grid,.about-grid,.appt-grid,.timing-grid{grid-template-columns:1fr}.fc1{left:10px}.fc2{right:10px}}
 @media (max-width:760px){
+  .nav{backdrop-filter:none;-webkit-backdrop-filter:none;background:#fff}
   .burger{display:flex}
   .nav-links{position:fixed;top:0;right:-100%;height:100vh;width:min(80%,320px);background:#fff;flex-direction:column;align-items:flex-start;padding:6rem 2rem;gap:1.4rem;box-shadow:-10px 0 30px rgba(15,23,42,.2);transition:right .35s}
   .nav-links.open{right:0}
