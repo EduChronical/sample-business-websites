@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sample Business Websites — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:"Plus Jakarta Sans",system-ui,sans-serif;background:#0b0b14;color:#e7e7f0;min-height:100vh;padding:60px 5%}
+h1{font-size:clamp(2rem,4vw,3rem);font-weight:800;text-align:center;margin-bottom:.6rem}p.sub{text-align:center;color:#9a9ab3;margin-bottom:3rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.6rem;max-width:1150px;margin:auto}
+a.card{display:block;text-decoration:none;color:inherit;background:#161627;border:1px solid rgba(255,255,255,.08);border-radius:20px;overflow:hidden;transition:transform .3s}
+a.card:hover{transform:translateY(-6px)}a.card img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.b{padding:1.3rem 1.4rem}.b h2{font-size:1.2rem;margin-bottom:.3rem}.b p{color:#9a9ab3;font-size:.92rem}
+</style>
+</head>
+<body>
+<h1>Sample Business Websites</h1>
+<p class="sub">Modern, responsive demo sites — restaurant, clinic and personal portfolio.</p>
+<div class="grid">
+<a class="card" href="restaurant/"><img src="restaurant/assets/hero.jpg" alt=""><div class="b"><h2>Spice Route Kitchen</h2><p>Restaurant · menu, gallery, reservations, WhatsApp</p></div></a>
+<a class="card" href="clinic/"><img src="clinic/assets/hero.jpg" alt=""><div class="b"><h2>CarePlus Family Clinic</h2><p>Clinic · services, doctors, appointment booking</p></div></a>
+<a class="card" href="portfolio/"><img src="portfolio/assets/p1.jpg" alt=""><div class="b"><h2>Rahul Varma — Portfolio</h2><p>Freelancer · projects, skills, testimonials, contact</p></div></a>
+</div>
+</body>
+</html>
